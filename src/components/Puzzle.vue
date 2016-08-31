@@ -27,7 +27,7 @@ export default {
       		i = 1
 
 	    for (i; i <= 9; i++) {
-	        puzzleArr.push("/static/"+i+".png");
+	        puzzleArr.push("./static/"+i+".png");
 	    }
 	
 	    // 随机打乱数组
